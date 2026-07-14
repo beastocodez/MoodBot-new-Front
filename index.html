@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoodBot AI</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js" defer></script>
+
+<body>
+  <div class="container">
+    <h1 id="bot-title">MoodBot AI</h1>
+    <div class="mood-selector">
+      <label for="mood">Bot's Mood:</label>
+      
+      <div class="custom-select-wrapper" id="custom-mood-selector">
+        </div>
+    </div>
+    <div class="chat-box" id="chat-box">
+      <div class="message bot initial-message">Hello! I'm MoodBot. Choose my mood and start chatting!</div>
+    </div>
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Type your message...">
+      <button id="send-btn">➤</button>
+    </div>
+  </div>
+</body>
+</html>
